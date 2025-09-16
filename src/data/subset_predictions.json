@@ -1,0 +1,17 @@
+[
+  { "timestamp": "2025-09-10T00:00:00", "actual": 23500, "predicted": 23800 },
+  { "timestamp": "2025-09-10T01:00:00", "actual": 22000, "predicted": 22500 },
+  { "timestamp": "2025-09-10T02:00:00", "actual": 21000, "predicted": 21250 },
+  { "timestamp": "2025-09-10T03:00:00", "actual": 20500, "predicted": 20800 },
+  { "timestamp": "2025-09-10T04:00:00", "actual": 20000, "predicted": 20250 },
+  { "timestamp": "2025-09-10T05:00:00", "actual": 19800, "predicted": 20000 },
+  { "timestamp": "2025-09-10T06:00:00", "actual": 21500, "predicted": 21800 },
+  { "timestamp": "2025-09-10T07:00:00", "actual": 24000, "predicted": 24250 },
+  { "timestamp": "2025-09-10T08:00:00", "actual": 26000, "predicted": 26300 },
+  { "timestamp": "2025-09-10T09:00:00", "actual": 27000, "predicted": 27350 },
+  { "timestamp": "2025-09-10T10:00:00", "actual": 26500, "predicted": 26800 },
+  { "timestamp": "2025-09-10T11:00:00", "actual": 25000, "predicted": 25300 },
+  { "timestamp": "2025-09-10T12:00:00", "actual": 24000, "predicted": 24350 },
+  { "timestamp": "2025-09-10T13:00:00", "actual": 23000, "predicted": 23250 },
+  { "timestamp": "2025-09-10T14:00:00", "actual": 22500, "predicted": 22800 }
+]
