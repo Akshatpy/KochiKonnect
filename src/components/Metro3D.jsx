@@ -4,9 +4,7 @@ import { Text } from '@react-three/drei'; import * as THREE from "three";
 const stationNames = [
   "Aluva", "Ambattukavu", "Cochin Uni", "Maharajas College", "Lissie"
 ];
-
 function Stations() {
-  // Spread stations at intervals
   return (
     <>{stationNames.map((name, idx) => (
   <Text
@@ -21,7 +19,6 @@ function Stations() {
     </>
   );
 }
-// Metro train component
 function MetroTrain({ color, speed, z }) {
   const group = useRef();   
 

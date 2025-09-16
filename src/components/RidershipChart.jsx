@@ -9,15 +9,12 @@ import {
   Legend,
   ResponsiveContainer
 } from "recharts";
-import data from "../data/subset_predictions.json"; // make sure JSON is in src/data/
-
+import data from "../data/subset_predictions.json"; 
 export default function RidershipChart() {
-  // Format timestamps for better X-axis labels
   const formattedData = data.map(d => ({
     ...d,
     timestamp: new Date(d.timestamp).toLocaleString([], { month: "short", day: "numeric" })
   }));
-
   return (
     <div style={{ width: "100%", height: 400, backgroundColor: "white", padding: "1rem", borderRadius: "0.5rem", boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>
       <h2 style={{ textAlign: "center", marginBottom: "1rem" }}>N-BEATS Ridership Predictions (April Month Stats)</h2>
