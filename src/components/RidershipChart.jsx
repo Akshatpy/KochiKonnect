@@ -20,7 +20,7 @@ export default function RidershipChart() {
 
   return (
     <div style={{ width: "100%", height: 400, backgroundColor: "white", padding: "1rem", borderRadius: "0.5rem", boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}>
-      <h2 style={{ textAlign: "center", marginBottom: "1rem" }}>N-BEATS Ridership Predictions (Last 200 Hours)</h2>
+      <h2 style={{ textAlign: "center", marginBottom: "1rem" }}>N-BEATS Ridership Predictions (April Month Stats)</h2>
       <ResponsiveContainer width="100%" height="90%">
         <LineChart data={formattedData}>
           <CartesianGrid strokeDasharray="3 3" />
